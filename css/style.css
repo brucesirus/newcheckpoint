@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
+
+:root {
+  --black: #1c2833;
+  --blue: #4c0dca;
+  --light: #ffffff;
+  --green: #2ecc71;
+  --yellow: #f7dc6f;
+  --lightBlue: #6495ed;
+  --blackblue: #09263b;
+  --red: #cf1a03;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background: var(--blackblue);
+  color: var(--light);
+}
+
+.mainHeader {
+  background: transparent;
+  position: fixed;
+  width: 100%;
+  padding: 20px 10%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 25px;
+  color: var(--light);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navigation a {
+  font-size: 18px;
+  color: var(--light);
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+}
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: var(--red);
+  background: var(--green);
+  border: none;
+}
+
+.navigation a:hover {
+  color: var(--red);
+}
+
+.navigation a.active {
+  color: var(--green);
+}
+
+.mainHome {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  background: var(--blackblue);
+}
+
+.main-content {
+  background: var(--blue);
+  max-width: 600px;
+  height: 50%;
+}
+
+.main-content h1 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.main-content h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--lightBlue);
+}
+
+.main-content p {
+  font-size: 16px;
+}
+
+.main-content .btn-box {
+
+  display: flex;
+  justify-content: space-between;
+  width: 345px;
+  height: 50px;
+}
+
+.btn-box a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  /* background: var(--red); */
+  width: 150px;
+  height: 100%;
+  border: 2px solid var(--green);
+  border-radius: 10px;
+  font-size: 19px;
+  color: var(--light);
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 10px;
+}
+
+.div1 {
+  color: var(--blue);
+}
+
+.div2 {
+  color: var(--yellow);
+}
+
+.mainDiv {
+  background: var(--red);
+  position: absolute;
+  width: 470px;
+  bottom: 40px;
+}
+
+.mainDiv1 {
+  background: var(--green);
+  position: relative;
+  right: 30px;
+  bottom: 140px;
+}
