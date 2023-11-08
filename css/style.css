@@ -76,7 +76,7 @@ body {
 }
 
 .main-content {
-  background: var(--blue);
+ 
   max-width: 600px;
   height: 50%;
 }
